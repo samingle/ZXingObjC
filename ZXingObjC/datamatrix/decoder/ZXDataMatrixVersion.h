@@ -34,7 +34,7 @@
  */
 @interface ZXDataMatrixECB : NSObject
 
-@property (nonatomic, assign, readonly) int count;
+@property (nonatomic, assign, readonly) NSUInteger count;
 @property (nonatomic, assign, readonly) int dataCodewords;
 
 @end

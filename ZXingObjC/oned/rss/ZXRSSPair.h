@@ -20,7 +20,7 @@
 
 @interface ZXRSSPair : ZXRSSDataCharacter
 
-@property (nonatomic, assign, readonly) int count;
+@property (nonatomic, assign, readonly) NSUInteger count;
 @property (nonatomic, strong, readonly) ZXRSSFinderPattern *finderPattern;
 
 - (id)initWithValue:(int)value checksumPortion:(int)checksumPortion finderPattern:(ZXRSSFinderPattern *)finderPattern;
