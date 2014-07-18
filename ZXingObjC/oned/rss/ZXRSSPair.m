@@ -19,7 +19,7 @@
 
 @interface ZXRSSPair ()
 
-@property (nonatomic, assign) int count;
+@property (nonatomic, assign) NSUInteger count;
 
 @end
 
